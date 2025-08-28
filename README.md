@@ -1,5 +1,5 @@
 # Supporting material for lessons on Tools Mechanism 
-# Originally copied from CodeInstitute rep and modified
+# Originally copied from CodeInstitute repo and modified
 
 ## First steps with streamlit
 
