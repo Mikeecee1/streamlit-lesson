@@ -18,18 +18,18 @@ st.write("---")
 ################################################################################
 ### Display text ###
 ################################################################################
-# st.write("# This is a major section")  # use markdown to create headers and sub headers
-# st.write("## This is subsection 1")
-# st.write("* Here is content for subsection 1")
-# st.write("## This is subsection 2")
-# st.write("* Here is content for subsection 2")
-# st.write("### This is sub-subsection 2") # you can play around by adding more sub-sections
-# st.write("Here other content")
-# st.info("* This is made with st.info()") # Display a text with informational style.
-# st.success("* This is made with st.success()") # Display a text with success style.
-# st.warning("* This is made with st.warning()") # Display a text with warning style.
-# st.error("* This is made with st.error()") # Display a text with error style.
-# st.write("---")  # creates a horizontal line, useful to separate the content in the page
+st.write("# This is a major section")  # use markdown to create headers and sub headers
+st.write("## This is subsection 1")
+st.write("* Here is content for subsection 1")
+st.write("## This is subsection 2")
+st.write("* Here is content for subsection 2")
+st.write("### This is sub-subsection 2") # you can play around by adding more sub-sections
+st.write("Here other content")
+st.info("* This is made with st.info()") # Display a text with informational style.
+st.success("* This is made with st.success()") # Display a text with success style.
+st.warning("* This is made with st.warning()") # Display a text with warning style.
+st.error("* This is made with st.error()") # Display a text with error style.
+st.write("---")  # creates a horizontal line, useful to separate the content in the page
 
 
 
@@ -38,27 +38,27 @@ st.write("---")
 ################################################################################
 ###### We will generate some data
 
-# my_list = [10,50,409] # Python list
-# my_dict = {'Number':[1,2,3], 'Color': ['Blue', 'Yellow', 'Green']} # python dictionary
+my_list = [10,50,409] # Python list
+my_dict = {'Number':[1,2,3], 'Color': ['Blue', 'Yellow', 'Green']} # python dictionary
 
-##### We will use pandas and numpy to generate a DataFrame. 
-##### For now, think of a DataFrame as a table with columns, rows and data.
-# import numpy as np
-# import pandas as pd 
-# np.random.seed(1)
-# df = pd.DataFrame(data={"Col1":np.random.randint(low=-100,high=100,size=10),
-#                         "Col2":np.random.randint(low=25,high=80,size=10)
-#                         })
+#### We will use pandas and numpy to generate a DataFrame. 
+#### For now, think of a DataFrame as a table with columns, rows and data.
+import numpy as np
+import pandas as pd 
+np.random.seed(1)
+df = pd.DataFrame(data={"Col1":np.random.randint(low=-100,high=100,size=10),
+                        "Col2":np.random.randint(low=25,high=80,size=10)
+                        })
 
-# st.write("This is a list")
-# st.write(my_list)
-# st.write("This is a dict")
-# st.write(my_dict)
-# st.write("This is a DataFrame")
-# st.write(df)
-# st.write("Alternatively, you can display a DataFrame using st.table()")
-# st.table(df)
-# st.write('---')
+st.write("This is a list")
+st.write(my_list)
+st.write("This is a dict")
+st.write(my_dict)
+st.write("This is a DataFrame")
+st.write(df)
+st.write("Alternatively, you can display a DataFrame using st.table()")
+st.table(df)
+st.write('---')
 
 
 
