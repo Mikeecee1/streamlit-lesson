@@ -10,3 +10,13 @@
 3. Creating a simple calculator interface
 
 4. next project to add some data visualisation
+
+## Running Pages
+
+To run enter the following command in terminal:
+
+`streamlit run [page-name]`
+
+For example:
+
+`streamlit run 3_calculator.py`
